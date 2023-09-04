@@ -1,0 +1,864 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto-Black.ttf);
+}
+.banner {
+  height: 726px;
+  background-image: url(../images/Bitmap.png);
+  background-repeat: repeat-x;
+}
+.banner-big-text {
+  width: 470px;
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 223.5px auto 0 auto;
+}
+.banner-small-text {
+  color: #F7F3F2;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24.5px;
+  margin: 28.5px auto 0 auto;
+}
+
+.header {
+  width: 901px;
+  height: 102px;
+  margin: 0 auto 0 auto;
+  display: flex;
+}
+.header-logo {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+  margin: 72px 0 0 0;
+}
+.header-mobile-logo {
+  display: none;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.header-login {
+  color: #FFF;
+  font-family: Montserrat;
+  width: 44px;
+  text-decoration: none;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 60px 0 0 592px;
+}
+.header-signup {
+  text-decoration: none;
+  color: #FFF;
+  width: 55px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 10px 17px 9px 18px;
+}
+.header-signup-box {
+  width: 90px;
+  height: 36px;
+  border-radius: 40px;
+  border: 2px solid white;
+  margin: 50px 0 0 19px;
+  align-content: center;
+  display: flex;
+}
+.header-button {
+  width: 225px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: #FF4E50;
+  margin: 33px auto 0 auto;
+  text-align: center;
+}
+.header-button-text {
+  position: relative;
+  top: 25%;
+  color: #FFF;
+  text-decoration: none;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.steps {
+  height: 556px;
+  width: 100%;
+}
+.steps-big-text {
+  color: #444;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 89px auto 0 auto;
+}
+.steps-pictures {
+  height: 400px;
+  width: 1000px;
+  margin: 35px auto 0 auto;
+  display: flex;
+}
+.steps-pictures-one {
+  margin: 0 20px 0 0;
+  width: 300px;
+  background-image: url(../images/pic1.png);
+}
+.steps-pictures-two {
+  margin: 0 20px 0 0;
+  width: 300px;
+  background-image: url(../images/pic2.png);
+}
+.steps-pictures-three {
+  width: 300px;
+  margin: 0 20px 0 0;
+  background-image: url(../images/pic3.png);
+}
+.steps-pictures-big-text {
+  color: #FFF;
+  margin: 20px 0 0 25px;
+  width: 250px;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px;
+}
+.steps-pictures-small-text {
+  color: #E3E3E3;
+  font-family: Roboto;
+  width: 250px;
+  margin: 15px auto 0 auto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 14px; /* 100% */
+}
+.steps-box-1 {
+  width: 70px;
+  height: 20px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  border: 1px solid #FF4E50;
+  background-color: #FF4E50;
+  margin: 219px 0 0 25px;
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+.steps-box-2 {
+  width: 70px;
+  height: 20px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  border: 1px solid #FF4E50;
+  background-color: #FF4E50;
+  margin: 219px 0 0 25px;
+  text-align: center;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+.steps-box-3 {
+  width: 70px;
+  height: 20px;
+  text-align: center;
+  flex-shrink: 0;
+  border-radius: 40px;
+  border: 1px solid #FF4E50;
+  background-color: #FF4E50;
+  margin: 219px 0 0 25px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+
+.partners {
+  height: 361px;
+  width: 100%;
+}
+.partners-btn {
+  display: flex;
+}
+.partners-title {
+  margin: 89px auto 0 auto;
+  color: #444;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.partners-photos {
+  height: 250px;
+  width: 941px;
+  margin: 6px auto 0 auto;
+  display: flex;
+}
+.partners-photos-btn {
+  height: 40px;
+  width: 180px;
+  margin: 36px auto 0 auto;
+  border-radius: 40px;
+  border: 2px solid #FF4E50;
+  background: #FFF;
+  color: #FF4E50;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.partners-photos-one {
+  width: 221px;
+  height: 205px;
+}
+.partners-photos-img1 {
+  width: 126px;
+  margin: 32px 0 0 48px;
+  height: 126px;
+  border-radius: 100px;
+}
+.partners-photos-name {
+  color: #444;
+  text-align: center;
+  width: 221px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 14px 0 0 0;
+}
+.partners-photos-desc {
+  color: #666;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 14px;
+}
+.partners-photos-two {
+  width: 221px;
+  height: 205px;
+  margin-left: 19px;
+}
+.partners-photos-img2 {
+  width: 126px;
+  margin: 32px 0 0 50px;
+  height: 126px;
+  border-radius: 100px;
+}
+.partners-photos-three {
+  width: 221px;
+  height: 205px;
+  margin-left: 19px;
+}
+.partners-photos-img3 {
+  width: 126px;
+  margin: 32px 0 0 50px;
+  height: 126px;
+  border-radius: 100px;
+}
+.partners-photos-four {
+  width: 221px;
+  height: 205px;
+  margin-left: 19px;
+}
+.partners-photos-img4 {
+  width: 126px;
+  margin: 32px 0 0 50px;
+  height: 126px;
+  border-radius: 100px;
+}
+
+.ideas {
+  margin: 35px auto 0 auto;
+  height: 970px;
+  width: 940px;
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 310px 310px 310px;
+  grid-gap: 20px;
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.ideas-sport {
+  background-image: url(../images/sport.png);
+  grid-row: 1/2;
+  grid-column: 1/2;
+  text-align: center;
+  align-content: center;
+}
+.ideas-wellness {
+  background-image: url(../images/wellness.png);
+  grid-row: 1/2;
+  grid-column: 2/3;
+}
+.ideas-extreme {
+  background-image: url(../images/extreme.png);
+  grid-row: 1/2;
+  grid-column: 3/4;
+}
+.ideas-games {
+  background-image: url(../images/games.png);
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+.ideas-culture {
+  background-image: url(../images/culture.png);
+  grid-row: 2/3;
+  grid-column: 2/4;
+}
+.ideas-enjoyment {
+  background-image: url(../images/enjoyment.png);
+  grid-row: 3/4;
+  grid-column: 1/3;
+}
+.ideas-travelling {
+  background-image: url(../images/travelling.png);
+  grid-row: 3/4;
+  grid-column: 3/4;
+}
+.ideas-text {
+  position: relative;
+  top: 40%;
+}
+
+.form {
+  height: 40px;
+  margin: 25px auto 0 auto;
+}
+.form-field {
+  display: flex;
+  width: 482px;
+  margin: 0 auto;
+}
+.form-field-input {
+  height: 40px;
+  width: 299px;
+  border-radius: 3px;
+  border: 1px solid #D4D4D4;
+  background: #FFF;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.07);
+}
+.form-field-btn {
+  border-radius: 40px;
+  background: #FF4E50;
+  width: 172.125px;
+  height: 40px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: 1px solid #FF4E50;
+  margin: 0 0 0 10px;
+}
+
+.footer {
+  margin: 100px 0 0 0;
+  border-top: 2px solid #FF4E50;
+  height: 224px;
+  width: 100%;
+}
+.footer-info {
+  display: flex;
+  width: 944px;
+  margin: 40px auto 0 auto;
+}
+.footer-link {
+  color: #FF4E50;
+  font-family: Montserrat;
+  margin-top: 10px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  line-height: normal;
+}
+.footer-company {
+  color: #444;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 122px;
+}
+.footer-company-items {
+  color: #999;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px;
+}
+.footer-partners {
+  color: #444;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 169px;
+}
+.footer-logo {
+  color: #CCC;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  margin: 10px 0 0 287px;
+  text-align: end;
+  width: 110px;
+}
+.footer-logo-img {
+  width: 110px;
+  height: 24px;
+}
+
+@media screen and (max-width: 768px) and (min-width: 321px) {
+  .banner {
+    height: 700px;
+    width: 100%;
+    background-position: center;
+  }
+  .header {
+    width: 100%;
+    height: 72px;
+  }
+  .header-logo {
+    margin: 46px 0 0 48px;
+  }
+  .header-login {
+    margin: 50px 0 0 365px;
+  }
+  .header-signup {
+    margin: 10px 17px 9px 18px;
+  }
+  .header-signup-box {
+    margin: 40px 0 0 19px;
+  }
+  .steps-pictures {
+    width: 100%;
+  }
+  .steps-pictures-one {
+    width: 236px;
+    margin-left: 10px;
+  }
+  .steps-pictures-two {
+    width: 236px;
+    margin-left: 20px;
+  }
+  .steps-pictures-three {
+    width: 236px;
+    margin-left: 20px;
+  }
+  .steps-pictures-big-text {
+    width: 196px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14px;
+  }
+  .steps-pictures-small-text {
+    width: 196px;
+    color: #E3E3E3;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 14px;
+    margin-left: 20px;
+  }
+  .partners {
+    width: 492px;
+    height: 605px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .partners-title {
+    margin: 0 auto 0 auto;
+    color: #444;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .partners-photos {
+    width: 492px;
+    height: 467px;
+  }
+  .partners-photos-one {
+    width: 236px;
+  }
+  .partners-photos-two {
+    width: 236px;
+  }
+  .partners-photos-three {
+    width: 236px;
+    display: none;
+  }
+  .partners-photos-four {
+    width: 236px;
+    display: none;
+  }
+  .ideas {
+    width: 748px;
+    height: 970px;
+    grid-template-columns: 236px 236px 236px;
+    grid-template-rows: 310px 310px 310px;
+  }
+  .ideas-sport {
+    width: 236px;
+  }
+  .ideas-wellness {
+    width: 236px;
+  }
+  .ideas-extreme {
+    width: 236px;
+  }
+  .ideas-games {
+    width: 236px;
+  }
+  .ideas-culture {
+    width: 492px;
+  }
+  .ideas-enjoyment {
+    width: 492px;
+  }
+  .ideas-travelling {
+    width: 236px;
+  }
+  .footer-info {
+    width: 768px;
+    height: 224px;
+  }
+  .footer-link {
+    margin: 12px 0 0 39px;
+  }
+  .footer-company {
+    margin-left: 108px;
+  }
+  .footer-partners {
+    margin-left: 100px;
+  }
+  .footer-logo {
+    margin-left: 110px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .header {
+    width: 100%;
+    height: 56px;
+  }
+  .header-login {
+    margin: 30px 0 0 74px;
+  }
+  .header-mobile-logo {
+    display: block;
+    margin: 97px auto 0 auto;
+    text-align: center;
+    text-decoration: none;
+  }
+  .header-logo {
+    display: none;
+  }
+  .header-signup {
+    margin: 10px 17px 9px 18px;
+  }
+  .header-signup-box {
+    margin: 20px 0 0 19px;
+  }
+  .header-button {
+    margin: 15px auto 0 auto;
+  }
+  .banner {
+    height: 556px;
+    width: 100%;
+  }
+  .banner-big-text {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 26.5px auto 0 auto;
+    width: 272px;
+    height: 74px;
+  }
+  .banner-small-text {
+    color: #F7F3F2;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    margin: 5.5px auto 0 auto;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24.5px;
+    width: 280px;
+    height: 49px;
+  }
+  .steps {
+    height: 781px;
+    width: 100%;
+    margin: 34px auto 0 auto;
+  }
+  .steps-big-text {
+    color: #444;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .steps-pictures {
+    flex-direction: column;
+    width: 300px;
+    height: 740px;
+  }
+  .steps-pictures-one {
+    width: 300px;
+    height: 240px;
+    margin: 15px auto 0 auto;
+  }
+  .steps-pictures-two {
+    width: 300px;
+    height: 240px;
+    margin: 10px auto 0 auto;
+  }
+  .steps-pictures-three {
+    width: 300px;
+    height: 240px;
+    margin: 10px auto 0 auto;
+  }
+  .steps-pictures-big-text {
+    margin: 44px auto 0 auto;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14px; /* 58.333% */
+  }
+  .steps-pictures-small-text {
+    margin: 10px auto 0 auto;
+    color: #E3E3E3;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 14px; /* 100% */
+  }
+  .steps-box-1 {
+    margin: 64px 0 0 20px;
+  }
+  .steps-box-2 {
+    margin: 64px 0 0 20px;
+  }
+  .steps-box-3 {
+    margin: 64px 0 0 20px;
+  }
+  .partners {
+    height: 1031px;
+    flex-direction: column;
+    width: 100%;
+  }
+  .partners-btn {
+    margin: 36px auto 0 auto;
+  }
+  .partners-title {
+    margin: 89px auto 0 auto;
+    color: #444;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .partners-photos {
+    flex-direction: column;
+    height: 890px;
+    width: 236px;
+  }
+  .partners-photos-name {
+    color: #444;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .partners-photos-desc {
+    color: #666;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 14px; /* 100% */
+  }
+  .partners-photos-one {
+    margin: 11px auto 0 auto;
+  }
+  .partners-photos-two {
+    margin: 15px auto 0 auto;
+  }
+  .partners-photos-three {
+    margin: 15px auto 0 auto;
+  }
+  .partners-photos-four {
+    margin: 15px auto 0 auto;
+  }
+  .ideas {
+    margin: 35px auto 0 auto;
+    height: 1002px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+  .ideas-text {
+    top: 20%;
+  }
+  .ideas-sport {
+    height: 120px;
+    margin: 0 auto 0 auto;
+    width: 300px;
+  }
+  .ideas-wellness {
+    height: 120px;
+    margin: 10px auto 0 auto;
+    width: 300px;
+  }
+  .ideas-extreme {
+    height: 120px;
+    margin: 10px auto 0 auto;
+    width: 300px;
+  }
+  .ideas-games {
+    height: 120px;
+    margin: 10px auto 0 auto;
+    width: 300px;
+  }
+  .ideas-culture {
+    height: 120px;
+    margin: 10px auto 0 auto;
+    width: 300px;
+  }
+  .ideas-enjoyment {
+    height: 120px;
+    margin: 10px auto 0 auto;
+    width: 300px;
+  }
+  .ideas-travelling {
+    height: 120px;
+    margin: 10px auto 0 auto;
+    width: 300px;
+  }
+  .form {
+    height: 40px;
+    margin: 25px auto 0 auto;
+  }
+  .form-field {
+    width: 280px;
+    flex-direction: column;
+    margin: 0 auto;
+    color: #999;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .form-field-btn {
+    width: 280px;
+    height: 40px;
+    flex-shrink: 0;
+    margin-top: 10px;
+  }
+  .footer-info {
+    width: 100%;
+    margin-top: 19px;
+    flex-direction: column;
+  }
+  .footer-link {
+    margin: 0 auto 0 auto;
+  }
+  .footer-company {
+    margin: 13px auto 0 auto;
+  }
+  .footer-company-items {
+    display: flex;
+  }
+  .footer-partners {
+    margin: 6px auto 0 auto;
+  }
+  .footer-logo {
+    margin: 14px auto 22px auto;
+    text-align: center;
+  }
+}/*# sourceMappingURL=main.css.map */
